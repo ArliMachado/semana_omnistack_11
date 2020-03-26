@@ -1,5 +1,4 @@
 import React from 'react';
-import { FiLogIn } from "react-icons/fi";
 
 import logoImg from '../../assets/logo.svg'
 import heroesImg from '../../assets/heroes.png'
@@ -26,7 +25,7 @@ export default function Logon() {
           <FormInput placeholder="Sua ID" />
           <FormButton type="submit">Entrar</FormButton>
 
-          <FormButtonRegister href="/register">
+          <FormButtonRegister to="/register">
             <RegisterIcon />
             Não tenho cadastro
           </FormButtonRegister>

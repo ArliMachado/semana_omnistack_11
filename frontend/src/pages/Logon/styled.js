@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { FiLogIn } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 import Button from '../../components/Button'
 import Input from '../../components/Input'
@@ -34,7 +35,7 @@ export const FormInput = styled(Input)``
 
 export const FormButton = styled(Button)``;
 
-export const FormButtonRegister = styled.a`
+export const FormButtonRegister = styled(Link)`
   display: flex;
   align-items: center;
   margin-top: 40px;
