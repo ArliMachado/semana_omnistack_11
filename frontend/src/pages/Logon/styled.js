@@ -13,7 +13,7 @@ export const LogonContainer = styled.div`
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 `;
 export const FormContent = styled.section`
   width: 100%;
